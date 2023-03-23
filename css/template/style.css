@@ -6,7 +6,6 @@ html {
 body {
   font-family: "Inter";
   font-weight: 60;
-  font-size: 24px;
   color: #000;
   background-color: #ebebeb;
   border-radius: 7px;
@@ -27,16 +26,16 @@ body {
   color: #97e719;
   background-color: #000;
   display: flex;
-  align-items: end;
+  align-items: center;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 10px 20px 20px 20px;
 }
 
 .logo img {
-  width: 40px;
-  height: 52px;
+  width: 25px;
+  height: 30px;
 }
 
 .header {
@@ -93,22 +92,25 @@ body {
   gap: 10px;
   cursor: pointer;
   font-size: 14px;
+  font-weight: 400;
   margin-top: 5px;
+
+  padding: 0 20px;
 }
 
 .sidebar a:hover {
   background-color: #97e719;
+  padding: 5px 20px;
 }
 
 .sidebar a img {
-  padding-left: 24px;
   width: 20px;
   height: 20px;
 }
 
 .log-out {
   color: #fff;
-  margin-top: 38rem;
+  margin-top: 40rem;
   font-weight: 400;
   font-size: 14px;
   display: flex;

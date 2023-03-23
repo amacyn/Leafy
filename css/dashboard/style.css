@@ -77,10 +77,9 @@ span {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(12, 1fr);
-
   font-size: 10px;
+  font-weight: 500;
   align-items: end;
-
   border-bottom: 1px dashed gray;
 }
 
@@ -91,25 +90,12 @@ span {
 }
 
 .green {
-  background-color: green;
+  background-color: #97e719;
 }
 
 .black {
   background-color: black;
 }
-
-/* .barchart-bars {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  height: 5rem;
-  align-content: center;
-  font-size: 10px;
-  text-align: center;
-
-  background-color: green;
-
-  gap: 0.7rem;
-} */
 
 .barchart-grid-container {
   display: grid;
@@ -124,8 +110,8 @@ span {
   padding-right: 0.5rem;
   gap: 1.2rem;
   text-align: right;
-
   font-size: 10px;
+  font-weight: 500;
 }
 
 .barchart-chart-column-item {
@@ -144,185 +130,9 @@ span {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   font-size: 10px;
+  font-weight: 500;
   text-align: center;
 }
-/* 
-.content {
-  border-left: 1px solid #000;
-  border-right: none;
-  z-index: 0;
-  margin-top: 10px;
-  margin-left: 40px;
-  margin-bottom: 30px;
-} */
-
-/* .meter-v {
-  position: relative;
-  top: 0px;
-  left: -30px;
-  width: 30rem;
-  height: 18rem;
-  z-index: 100;
-} */
-/* 
-.meter-v li {
-  position: relative;
-  left: -11px;
-  height: 2.5rem;
-  border-bottom: 1px dashed #000;
-}
-
-.meter-v li div {
-  position: absolute;
-  width: 80px;
-  font-size: 16px;
-  padding-top: 30px;
-  left: -85px;
-  text-align: right;
-}
-
-.bar-1 {
-  width: 15px;
-  height: 21%;
-  background-color: #97e719;
-  position: absolute;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-2 {
-  width: 15px;
-  height: 27%;
-  background-color: #97e719;
-  position: absolute;
-  left: 13rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-3 {
-  width: 15px;
-  height: 15%;
-  background-color: #97e719;
-  position: absolute;
-  left: 15rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-4 {
-  width: 15px;
-  height: 32%;
-  background-color: #97e719;
-  position: absolute;
-  left: 17rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-5 {
-  width: 15px;
-  height: 24%;
-  background-color: #97e719;
-  position: absolute;
-  left: 19rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-6 {
-  width: 15px;
-  height: 30%;
-  background-color: #97e719;
-  position: absolute;
-  left: 21rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-7 {
-  width: 15px;
-  height: 26%;
-  background-color: #97e719;
-  position: absolute;
-  left: 23rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-8 {
-  width: 15px;
-  height: 30%;
-  background-color: #97e719;
-  position: absolute;
-  left: 25rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-9 {
-  width: 15px;
-  height: 22%;
-  background-color: #97e719;
-  position: absolute;
-  left: 27rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-10 {
-  width: 15px;
-  height: 12%;
-  background-color: #97e719;
-  position: absolute;
-  left: 29rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-11 {
-  width: 15px;
-  height: 33%;
-  background-color: #97e719;
-  position: absolute;
-  left: 31rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.bar-12 {
-  width: 15px;
-  height: 32%;
-  background-color: #97e719;
-  position: absolute;
-  left: 33rem;
-  bottom: 145px;
-  z-index: 1000;
-  border-radius: 5px;
-  margin: 0 10px;
-} */
 
 .top-product {
   background: #f5f5f5;
@@ -335,6 +145,7 @@ span {
 }
 
 .top-product table {
+  font-weight: 500;
   font-size: 12px;
   border-spacing: 0;
 }
@@ -381,14 +192,18 @@ span {
 }
 
 .recent-sale table {
+  font-weight: 500;
   font-size: 12px;
   border-spacing: 0;
 }
 
 .recent-sale td {
-  padding-left: 20px;
-  padding-right: 40px;
   border-bottom: 1px dashed #b6b3b3;
+  margin-top: 8px;
+}
+
+.recent-sale table tr {
+  height: 50px;
 }
 
 .network-1 {
@@ -444,6 +259,7 @@ span {
 .box ul {
   list-style: none;
   font-size: 12px;
+  font-weight: 500;
 }
 
 .box ul li {

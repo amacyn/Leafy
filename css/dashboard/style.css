@@ -1,0 +1,461 @@
+.breadcrumbs {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #000;
+}
+
+span {
+  color: #88d017;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.services {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+  background: inherit;
+}
+
+.services .service {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 7px;
+}
+
+.services .service:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.services .service h2 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  padding: 10px;
+}
+
+.sales-product-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: inherit;
+  padding: 10px;
+}
+
+.sale-performance {
+  background: #f5f5f5;
+  border-radius: 7px;
+}
+
+.sale-performance:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.barchart-container {
+  position: relative;
+}
+
+.barchart-bar-grid-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(12, 1fr);
+
+  font-size: 10px;
+  align-items: end;
+
+  border-bottom: 1px dashed gray;
+}
+
+.bar {
+  justify-self: center;
+  background-color: transparent;
+  width: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* .barchart-bars {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 5rem;
+  align-content: center;
+  font-size: 10px;
+  text-align: center;
+
+  background-color: green;
+
+  gap: 0.7rem;
+} */
+
+.barchart-grid-container {
+  display: grid;
+  grid-template-rows: 1fr max-content;
+  grid-template-columns: max-content 1fr;
+  padding: 0 1rem 0 0.3rem;
+}
+
+.barchart-money-column-item {
+  display: grid;
+  border-right: 1px solid gray;
+  padding-right: 0.5rem;
+  gap: 1.2rem;
+  text-align: right;
+
+  font-size: 10px;
+}
+
+.barchart-chart-column-item {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  border-bottom: 1px dashed gray;
+}
+
+.barchart-chart-column-item div {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  border-top: 1px dashed gray;
+}
+
+.barchart-month-item {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-size: 10px;
+  text-align: center;
+}
+/* 
+.content {
+  border-left: 1px solid #000;
+  border-right: none;
+  z-index: 0;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+} */
+
+/* .meter-v {
+  position: relative;
+  top: 0px;
+  left: -30px;
+  width: 30rem;
+  height: 18rem;
+  z-index: 100;
+} */
+/* 
+.meter-v li {
+  position: relative;
+  left: -11px;
+  height: 2.5rem;
+  border-bottom: 1px dashed #000;
+}
+
+.meter-v li div {
+  position: absolute;
+  width: 80px;
+  font-size: 16px;
+  padding-top: 30px;
+  left: -85px;
+  text-align: right;
+}
+
+.bar-1 {
+  width: 15px;
+  height: 21%;
+  background-color: #97e719;
+  position: absolute;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-2 {
+  width: 15px;
+  height: 27%;
+  background-color: #97e719;
+  position: absolute;
+  left: 13rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-3 {
+  width: 15px;
+  height: 15%;
+  background-color: #97e719;
+  position: absolute;
+  left: 15rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-4 {
+  width: 15px;
+  height: 32%;
+  background-color: #97e719;
+  position: absolute;
+  left: 17rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-5 {
+  width: 15px;
+  height: 24%;
+  background-color: #97e719;
+  position: absolute;
+  left: 19rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-6 {
+  width: 15px;
+  height: 30%;
+  background-color: #97e719;
+  position: absolute;
+  left: 21rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-7 {
+  width: 15px;
+  height: 26%;
+  background-color: #97e719;
+  position: absolute;
+  left: 23rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-8 {
+  width: 15px;
+  height: 30%;
+  background-color: #97e719;
+  position: absolute;
+  left: 25rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-9 {
+  width: 15px;
+  height: 22%;
+  background-color: #97e719;
+  position: absolute;
+  left: 27rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-10 {
+  width: 15px;
+  height: 12%;
+  background-color: #97e719;
+  position: absolute;
+  left: 29rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-11 {
+  width: 15px;
+  height: 33%;
+  background-color: #97e719;
+  position: absolute;
+  left: 31rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.bar-12 {
+  width: 15px;
+  height: 32%;
+  background-color: #97e719;
+  position: absolute;
+  left: 33rem;
+  bottom: 145px;
+  z-index: 1000;
+  border-radius: 5px;
+  margin: 0 10px;
+} */
+
+.top-product {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.top-product:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top-product table {
+  font-size: 12px;
+  border-spacing: 0;
+}
+
+.top-product td {
+  padding-left: 20px;
+  padding-right: 40px;
+  border-bottom: 1px dashed #b6b3b3;
+}
+
+.recent-preformance-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  background: inherit;
+}
+
+.recent-sale {
+  background: #f5f5f5;
+  margin: 10px;
+  border-radius: 7px;
+  text-align: left;
+}
+
+.recent-sale:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.recent-sale table {
+  font-size: 12px;
+  padding-top: none;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 22px;
+  border-spacing: 0;
+}
+
+.recent-sale table tr th {
+  padding: 8px;
+  background: #e7f5f5;
+  box-shadow: 0px 3px rgba(14, 14, 14, 0.25);
+}
+
+.recent-sale table {
+  font-size: 12px;
+  border-spacing: 0;
+}
+
+.recent-sale td {
+  padding-left: 20px;
+  padding-right: 40px;
+  border-bottom: 1px dashed #b6b3b3;
+}
+
+.network-1 {
+  color: #fd0606;
+}
+
+.network-2 {
+  color: #39d15a;
+}
+
+.network-3 {
+  color: #d15d39;
+}
+
+.website-performance {
+  background: #f5f5f5;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.website-performance-box {
+  display: flex;
+  justify-content: center;
+}
+
+.website-performance:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.website-performance h4 {
+  font-weight: 40;
+  font-size: 12px;
+}
+
+.pie {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  margin-top: 30px;
+
+  background: repeating-conic-gradient(
+    from 0deg,
+    #f47560 0deg 60deg,
+    #e8c1a0 60deg 180deg,
+    #97e3d5 180deg 360deg
+  );
+}
+
+.box {
+  right: 1;
+}
+
+.box ul {
+  list-style: none;
+  font-size: 12px;
+}
+
+.box ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.box ul li span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

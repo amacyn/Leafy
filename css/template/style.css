@@ -1,0 +1,122 @@
+html {
+  background: #d9d9d9;
+  border-radius: 7px;
+}
+
+body {
+  font-family: "Inter";
+  font-weight: 60;
+  font-size: 24px;
+  color: #000;
+  background-color: #ebebeb;
+  border-radius: 7px;
+}
+
+* {
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: max-content 1fr;
+}
+
+.logo {
+  color: #97e719;
+  background-color: #000;
+  display: flex;
+  align-items: end;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 52px;
+}
+
+.header {
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 10px;
+  /* gap: 10px; */
+
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px; */
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 20rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.search-input {
+  font-size: 16px;
+  background-color: white;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.sidebar {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar a {
+  color: #fff;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.sidebar a:hover {
+  background-color: #97e719;
+}
+
+.sidebar a img {
+  padding-left: 24px;
+  width: 20px;
+  height: 20px;
+}
+
+.log-out {
+  color: #fff;
+  margin-top: 38rem;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+.log-out img {
+  padding-left: 24px;
+  width: 20px;
+  height: 20px;
+}
